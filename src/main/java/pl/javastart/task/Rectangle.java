@@ -10,6 +10,11 @@ public class Rectangle {
         this.side2 = side2;
     }
 
+    public double calculateRectPerimeter() {
+        double rectPerimeter = side1 * 2 + side2 * 2;
+        return rectPerimeter;
+    }
+
     public double getSide1() {
         return side1;
     }

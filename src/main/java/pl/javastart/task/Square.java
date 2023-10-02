@@ -8,6 +8,11 @@ public class Square {
         this.side = side;
     }
 
+    public double calculateSquareArea() {
+        double squareArea = side * side;
+        return squareArea;
+    }
+
     public double getSide() {
         return side;
     }
